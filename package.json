@@ -1,0 +1,18 @@
+{
+  "name": "scss-opdracht1",
+  "version": "1.0.0",
+  "description": "Mijn eerste scss project.",
+  "main": "index.html",
+  "scripts": {
+    "watch-scss-page1": "sass --watch scss/index.scss:css/index.css",
+    "watch-scss-page2": "sass --watch scss/login.scss:css/login.css",
+    "watch-scss-page3": "sass --watch scss/detailpagina.scss:css/detailpagina.css"
+  }
+  ,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.70.0"
+  }
+}
